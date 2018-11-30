@@ -2,7 +2,7 @@ import angular from 'angular';
 
 export default angular.module('myApp', [])
 
-  .controller('MainCtrl', function MainCtrl($scope) {
+  .controller('MainCtrl', ['$scope' , function MainCtrl($scope) {
     $scope.freelancer = '1';
     $scope.name = 'Becky';
     $scope.handleSubmit = ($event) => {
@@ -15,4 +15,4 @@ export default angular.module('myApp', [])
         $scope.freelancer = ev.detail.id;
       });
     };
-  });
+  }]);
