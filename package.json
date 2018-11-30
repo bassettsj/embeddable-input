@@ -16,6 +16,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/angular": "^1.6.51"
+    "@types/angular": "^1.6.51",
+    "workbox-build": "3.4.1"
   }
 }
