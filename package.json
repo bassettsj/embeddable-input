@@ -1,0 +1,21 @@
+{
+  "name": "___PROJECT_NAME___",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Stencil App Starter",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
+  },
+  "dependencies": {
+    "@stencil/core": "~0.15.2",
+    "@stencil/router": "~0.3.1",
+    "angular": "^1.7.5"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/angular": "^1.6.51"
+  }
+}
